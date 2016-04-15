@@ -1,0 +1,145 @@
+html body {
+    background-color: #202020;
+    font-family: "Source Sans Pro";
+}
+
+.container h1 {
+    color: white;
+    font-size: 25px;
+}
+
+.container h2 {
+    color: #515151;
+    font-size: 13px;
+}
+
+.container h3 {
+    font-size: 30px;
+    font-weight: bold;
+    color: #333333;
+}
+
+.container h4 {
+    font-size: 16px;
+    color: #939393;
+}
+
+.container h5 {
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.container .no-padding {
+    padding: 0;
+}
+
+.color-black {
+    color: black;
+}
+
+
+/*debut menu de navigation*/
+
+.container .nav-stacked li a {
+    padding: 30px 0;
+    color: #8d9494;
+    font-weight: bold;
+    border-top: 1px solid #3a3a3a;
+}
+
+.container .nav-stacked li a:hover {
+    background-color: #2980b9;
+    color: white;
+}
+
+.container .navbar-default {
+    background-color: #2a2a2a;
+    border: none;
+}
+
+.container .fond-gris-fonce {
+    background-color: #2a2a2a;
+}
+
+.container .navbar-default .navbar-toggle {
+    border: none;
+    margin-top: 0px;
+    float: left;
+    margin-left: 15px;
+}
+
+.container .navbar-toggle .collapsed:hover {
+    background-color: transparent;
+}
+
+.container .navbar-default .navbar-collapse {
+    border: none;
+}
+
+.container .navbar-default .navbar-toggle .icon-bar {
+    background-color: white;
+}
+
+.container .header-menu {
+    padding: 50px 0;
+}
+
+
+/*fin menu de navigation*/
+
+
+/*debut section et article*/
+
+.container .section {
+    background-color: white;
+    border-top: 10px solid #2980b9;
+}
+
+.container .header-article {
+    padding: 40px 0;
+}
+
+.article1 {
+    text-align: center;
+    padding: 40px;
+}
+
+.paragraphe {
+    border-left: 1px solid #e6e6e6;
+}
+
+.line-para {
+    line-height: 25px;
+}
+
+.date {
+    padding: 25px 0;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.article2 {
+    padding: 0px 80px;
+}
+
+.container .contenue-article {
+    padding: 30px 0;
+}
+
+
+/*fin section et article*/
+
+
+/*debut footer*/
+
+.container footer {
+    padding: 95px 0 170px 0;
+    color: #979f9f;
+}
+
+.container footer a {
+    color: #979f9f;
+}
+
+
+/*fin footer*/
